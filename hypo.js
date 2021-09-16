@@ -4,7 +4,6 @@ const output =document.querySelector('#output');
 
 function calculateSquareSum(a,b){
     const sumSquare=a*a + b*b ;
-    // console.log(sumSquare);
     return sumSquare;
 }
 
@@ -12,8 +11,6 @@ function calculateHypotenuse(){
     const sumSquare = calculateSquareSum(Number(sides[0].value),Number (sides[1].value));
     const lengthHypotenuse= Math.sqrt(sumSquare);
     output.innerText="Length of hypotenuse: "+ lengthHypotenuse
-    
-
 }
 
 hypotenuseBtn.addEventListener("click", calculateHypotenuse);
