@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #080808;
+  --secondary-color : rgb(50, 178, 252);
+  --white-color: white ;
+  --black-color:black;
+  --gold-color:goldenrod;
+}
+body {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+header h1 {
+
+  font-family: 'Kaushan Script', cursive;
+  text-align: initial;
+}
+
+header {
+  padding: .5rem;
+  background-color: var(--secondary-color);
+  color: var(--black-color);
+}
+.container > h1{
+  font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 2.5rem;
+  color: var(--secondary-color);
+}
+
+nav {
+  text-align: right;
+}
+nav > a {
+  padding: 0 0.5rem;
+  display: inline;
+  color:var(--black-color);
+}
+
+.input-label {
+  font-size: larger;
+    color: var(--gold-color);
+    padding: .1rem;
+    display: block;
+}
+
+.input-text,.input-angle, .side-input {
+  font-size: medium;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  width: 33%;
+  border-color: var(--black-color);
+}
+.quiz-form{
+    display: block;
+    text-align:justify;
+    margin-left:22%;
+}
+.question-container {
+  width: 85%;
+  margin: 1rem auto;
+  font-size: larger;
+  padding: 1rem 0;
+}
+.input-radio{
+    color: var(--secondary-color);
+}
+button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-weight: bolder;
+  border: 1em;
+  padding: 0.7rem 1rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  outline: black;
+  margin: 1rem auto;
+  display: block;
+
+}
+p{  
+    color: var(--gold-color);
+    margin: auto;
+    display: block;
+
+}
+#output{
+    color:var(--secondary-color);
+}

@@ -16,11 +16,11 @@ function isTriangle()
     (Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value));
     if(sumOfAngles === 180){
         
-        output.innerText="forms a triangle";
+        output.innerText="This forms a triangle, Go on !";
     }
     else{
         
-         output.innerText="doesn't forms a triangle";
+         output.innerText="O0ps !! This doesn't forms a triangle";
     }  
 
 }

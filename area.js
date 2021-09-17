@@ -1,6 +1,6 @@
-var inputSide = document.querySelectorAll(".side-input");
+var inputSide = document.querySelectorAll(".input-text");
 var calculateButton = document.querySelector(".calculate-button");
-var output = document.querySelector(".output");
+var output = document.querySelector("#output");
 
 function handleClick() {
   var side1 = Number(inputSide[0].value);
