@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #080808;
+  --primary-color: #000000;
   --secondary-color : rgb(50, 178, 252);
   --white-color: white ;
   --black-color:black;
@@ -34,6 +34,12 @@ header {
     font-weight: lighter;
     padding: 2.5rem;
   color: var(--secondary-color);
+}
+
+.choice{
+  color: var(--gold-color);
+  font-size: medium;
+  padding: 2rem;
 }
 
 nav {
