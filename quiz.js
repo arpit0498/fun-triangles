@@ -3,7 +3,7 @@ const submitAnswerBtn = document.querySelector('#submit-answer-button');
 
 const output = document.querySelector('#output');
 
-const correctAnswer=["90","right angled"];
+const correctAnswer=["90","right angled","right","Scalene","180 degrees"];
 
 function calculateScore(){
     let score = 0;
